@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP SUCRE LIBEREZ VOUS DE VOTRE ADDICTION AU SUCRE AVEC laseraddict</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-overflow-scrolling: touch;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 100vh;
+        font-family: "Roboto", sans-serif;
+        overflow-x: hidden;
+        background-color: #fff;
+    }
+
+    .header-above{
+        width: 100%;
+        height: 44px;
+        background-color: #ee222d;
+        border-bottom: 4px solid #ffc101;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Lato", sans-serif;
+    }
+
+    .header-above .nearby{
+        background-color: #f5f7f9;
+        color: #0084d6;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 800;
+        padding: 10px;
+        border: 3px solid #f5f7f9;
+        text-decoration: none;
+        margin: 0 12px;
+    }
+    .header-above .nearby:hover{
+        color: #f5f7f9;
+        background-color: #506d7e;
+    }
+
+    .header-above .open{
+        background-color: #506d7e;
+        color: #f5f7f9;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 700;
+        padding: 10px;
+        border: 1px solid #506d7e;
+        text-decoration: none;
+        margin: 0 12px;
+    }
+    .header-above .open:hover{
+        border: 1px solid #f5f7f9;
+    }
+
+    .navbar{
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        padding: 16px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .navbar .menu-links{
+        list-style-type: none;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar .menu-links .menu-link{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 70px;
+        margin: 0 4px;
+        padding: 0 10px 0 5px;
+        }
+    .navbar .menu-links .menu-link a {
+        text-decoration: none;
+        color: #333;
+    }
+    .navbar .menu-links .menu-link:hover{
+        background-color: #0084d6;
+    }
+    .navbar .menu-links .menu-link:hover a{
+        color: #fff;
+    }
+
+
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-image: url('https://laseraddict.fr/wp-content/uploads/2023/06/vue-face-ajout-cube-sucre-au-verre-espace-copie.webp');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .container{
+    width: 84%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+#hero .container .banner-card{
+    width: 50%;
+    background-color: #a9ecfb;
+    color: #000;
+    padding: 12px;
+}
+#hero .container .banner-card h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54px;
+}
+#hero .container .banner-card p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #333;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+
+
+.liberer {
+    margin: 24px 0;
+    font-size: 42px;
+    font-weight: 700;
+}
+.liberer span{
+    color: #0075be;
+}
+
+#sugar-free{
+    width: 100%;
+    height: 672px;
+    display: flex;
+    align-items: center;
+}
+#sugar-free .ni{
+    width: 50%;
+    height: 100%;
+    padding: 75px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#sugar-free .ni h3{
+font-size: 26px;
+font-weight: 700;
+line-height: 39px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+#sugar-free .ni hr{
+    width: 65%;
+    margin: 40px auto;
+}
+#sugar-free .ni h4{
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+
+#sugar-free .ni p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+font-family: "Roboto", sans-serif;
+margin: 26px 0;
+}
+
+#sugar-free .ni button{
+width: 524px;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+font-family: "Roboto", sans-serif;
+margin: 26px 0;
+padding: 10px 28px;
+text-decoration: none;
+background-color: #0084d6;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+#sugar-free .wi{
+    width: 50%;
+    height: 100%;
+}
+#sugar-free .wi img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#seance{
+    width: 100%;
+    height: 1060px;
+    display: flex;
+    align-items: center;
+}
+#seance .visuel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://laseraddict.fr/wp-content/uploads/2023/06/DSC_0202.webp');
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    /* filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 4.2px ) hue-rotate( 0deg ); */
+    z-index: -1;
+}
+#seance .visuel .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+#seance .visuel img{
+    position: absolute;
+    width: 620px;
+    height: 414px;
+}
+
+#seance .pg{
+width: 50%;
+padding: 75px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+#seance .pg h3{
+font-size: 26px;
+font-weight: 700;
+line-height: 39px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+#seance .pg hr{
+    width: 65%;
+    margin: 40px auto;
+}
+#seance .pg h4{
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+
+#seance .pg p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+font-family: "Roboto", sans-serif;
+margin: 26px 0;
+}
+#seance .pg .det{
+    text-align: left;
+    margin-top: 48px;
+    }
+
+#seance .pg  button{
+width: 524px;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+font-family: "Roboto", sans-serif;
+margin: 12px 0;
+padding: 10px 28px;
+text-decoration: none;
+background-color: #0084d6;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+
+#traitement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1496px;
+    background-image: url('https://laseraddict.fr/wp-content/uploads/2023/06/DSC_0170.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+#traitement .big-card{
+    background-color: #000;
+    color: #fff;
+    width: 88%;
+    height: 1200px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#traitement .big-card .po, .pt{
+    width: 50%;
+    height: 100%;
+    margin: 0 20px;
+    text-align: center;
+}
+#traitement .big-card p{
+font-size: 16px;
+font-weight: 300;
+line-height: 29px;
+font-family: "Roboto", sans-serif;
+margin: 28px 0;
+color: #7a7a7a;
+}
+#traitement .big-card button{
+width: 524px;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+font-family: "Roboto", sans-serif;
+margin: 12px 0;
+padding: 10px 28px;
+text-decoration: none;
+background-color: #0084d6;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+#traitement .big-card h3{
+font-size: 26px;
+font-weight: 700;
+line-height: 39px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+#traitement .big-card hr{
+    width: 65%;
+    margin: 40px auto;
+}
+#traitement .big-card h4{
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+#traitement .big-card ul span{
+    margin-bottom: 20px;
+}
+#traitement .big-card ul li{
+    margin: 12px 0;
+}
+
+#retenir{
+    width: 100%;
+    height: 1060px;
+    display: flex;
+    align-items: center;
+}
+
+#retenir .visuel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://laseraddict.fr/wp-content/uploads/2023/06/relaxed-woman-enjoying-the-sea-1024x683-1.jpg.webp');
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+}
+#retenir .visuel .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+}
+#retenir .visuel img{
+    position: absolute;
+    width: 620px;
+    height: 414px;
+    /* filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 1.2px ) hue-rotate( 0deg ); */
+}
+
+#retenir .pg{
+width: 50%;
+padding: 75px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+#retenir .pg h3{
+font-size: 26px;
+font-weight: 700;
+line-height: 39px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+#retenir .pg hr{
+    width: 65%;
+    margin: 40px auto;
+}
+#retenir.pg h4{
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+color: #0084d6;
+font-family: "Poppins", sans-serif;
+}
+
+#retenir .pg p{
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+font-family: "Roboto", sans-serif;
+color: #7a7a7a;
+margin: 26px 0;
+}
+#retenir .pg .det{
+    text-align: left;
+    margin-top: 48px;
+    }
+
+#retenir .pg  button{
+width: 524px;
+font-size: 14px;
+font-weight: 600;
+line-height: 30px;
+font-family: "Roboto", sans-serif;
+margin: 12px 0;
+padding: 10px 28px;
+text-decoration: none;
+background-color: #0084d6;
+color: #fff;
+border: none;
+cursor: pointer;
+text-transform: uppercase;
+}
+
+#cta{
+    position: relative;
+    width: 100%;
+    height: 248px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://laseraddict.fr/wp-content/uploads/2023/06/Asset-1.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cta .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(140deg, #00a480 65%, #0084d6 100%);
+    opacity: 0.9;
+}
+#cta h2{
+    position: relative;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #fff;
+    max-width: 60%;
+}
+#cta button{
+    position: relative;
+    padding: 16px 28px;
+    background-color: #ff5a74;
+    color: #fff;
+    border: none;
+    margin-left: 20px;
+    max-width: 316px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#nf{
+    width: 100%;
+    height: 78px;
+    background-color: #0084d6;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+#nf img{
+    width: 134px;
+    height: 46px;
+    margin-right: 10px;
+}
+#nf h2{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+/* Responsive MQ */
+@media screen and (max-width: 908px) {
+    body{width: 100vw;min-height: 100vh;overflow-x: hidden;}
+    .header-above{display: none;}
+    .navbar{display: flex; align-items: center; justify-content: center;}
+    .navbar .menu-links{display: none;}
+    #hero{width: 100%;height: 454px; background-position: left;}
+    #hero .container{width: 90vw; justify-content: center;}
+    #hero .container .banner-card{width: 88vw;background-color: #a9ecfb;color: #000;padding: 6px;}
+    #hero .container .banner-card h2{font-size: 25px;font-weight: 700;line-height: 30px;}
+    #hero .container .banner-card p{font-size: 14px;}
+    .liberer {font-size: 25px;text-align: center;}
+
+    #sugar-free{width: 100vw; height: auto;  flex-direction: column-reverse;}
+    #sugar-free .ni{width: 100vw;padding: 15px;}
+    #sugar-free .wi{width: 100vw;}
+    #sugar-free .ni h3{font-size: 20px;}
+    #sugar-free .n hr{width: 65%;margin: 20px auto;}
+    #sugar-free .n h4{font-size: 18px;}
+    #sugar-free .n p{font-size: 14px;margin: 26px 0;}
+    #sugar-free .ni button{width: 224px;font-size: 12px;margin: 20px 0;padding: 6px 24px;}
+
+    #seance{width: 100vw; height: auto;  flex-direction: column;}
+    #seance .visuel{position: relative;display: flex;align-items: center;justify-content: center;width: 100vw;height: 48vh;background-image: url('https://laseraddict.fr/wp-content/uploads/2023/06/DSC_0202.webp');background-position: center center;background-size: cover;opacity: 1;z-index: -1;}
+    #seance .visuel img{width: 90%;height: 90%;}
+    #seance .pg{width: 100vw;padding: 25px;display: flex;flex-direction: column;align-items: center;justify-content: center;}
+    #seance .pg h3{font-size: 20px;}
+    #seance .pg hr{width: 75%;margin: 20px auto;}
+    #seance .pg h4{font-size: 18px;}
+    #seance .pg p{font-size: 14px;}
+    #seance .pg .det{display: flex; flex-direction: column; align-items: center; text-align: left;margin-top: 48px;}
+    #seance .pg button{width: 284px;font-size: 12px;margin: 20px 0;padding: 6px 24px;}
+
+    #traitement{width: 100%; height: auto;padding: 40px 0;}
+    #traitement .big-card{width: 92vw;height: auto;padding: 20px;flex-direction: column;}
+    #traitement .big-card .po, .pt{width: 100%; height: auto;text-align: center;}
+    #traitement .big-card p{font-size: 13.8px;margin: 26px 0;}
+    #traitement .big-card button{width: 284px;font-size: 12px;margin: 20px 0;padding: 6px 24px;}
+    #traitement .big-card h3{font-size: 18px;}
+    #traitement .big-card hr{width: 75%;margin: 20px auto;}
+    #traitement .big-card h4{font-size: 18px;}
+    #traitement .big-card ul span{font-size: 13.8px;margin-bottom: 24px;}
+    #traitement .big-card ul li{font-size: 13.8px;margin: 8px 0;}
+
+    #retenir{width: 100vw; height: auto;  flex-direction: column;}
+    #retenir .visuel{position: relative;display: flex;align-items: center;justify-content: center;width: 100vw;height: 48vh;background-image: url('https://laseraddict.fr/wp-content/uploads/2023/06/relaxed-woman-enjoying-the-sea-1024x683-1.jpg.webp');background-position: center center;background-size: cover;opacity: 1;z-index: -1;}
+    #retenir .visuel img{width: 90%;height: 90%;}
+    #retenir .pg{width: 100vw;padding: 15px;}
+    #retenir .pg h3{font-size: 20px;}
+    #retenir .pg hr{width: 75%;margin: 20px auto;}
+    #retenir.pg h4{font-size: 18px;}
+    #retenir .pg p{font-size: 14px;margin: 26px 0;font-family: "Roboto", sans-serif;color: #7a7a7a;}
+    #retenir .pg .det{display: flex; flex-direction: column; align-items: center; text-align: left;margin-top: 48px;}
+    #retenir .pg  button{width: 284px;font-size: 12px;margin: 20px 0;padding: 6px 24px;}
+
+    #cta{position: relative;width: 100%;height: auto;flex-direction: column;padding: 20px;}
+    #cta h2{position: relative;font-size: 25px;line-height: 36px; max-width: 80%; margin: 12px 0;}
+    #cta button{padding: 8px 20px;max-width: 316px;font-size: 12px;font-weight: 700;line-height: 30px;}
+}
+</style>
+<body>
+    <div class="header-above">
+        <a href="#" class="nearby">
+            TROUVER UN CENTRE PRÈS DE CHEZ MOI
+        </a>
+
+        <a href="#" class="open">
+            OUVRIR VOTRE CENTRE LASERADDICT
+        </a>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./assets/logo.png" alt="">
+        </div>
+
+        <ul class="menu-links">
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+            <li class="menu-link"><a href="#">NOS CENTRES LASER</a></li>
+    </ul>
+    </nav>
+
+
+    <section id="hero">
+        <div class="container">
+            <div class="banner-card">
+                <h2>STOP SUCRE – LIBÉREZ-VOUS DE VOTRE ADDICTION AU SUCRE AVEC LASERADDICT®</h2>
+                <p>La méthode LaserAddict® représente une révolution dans la manière de dire stop au sucre. Sans avoir à affronter les effets indésirables du sevrage, vous pouvez retrouver une vie sans addiction. Notre équipe de professionnels est à votre écoute pour vous en dire plus.</p>
+            </div>
+        </div>
+      </section>
+
+      <h1 class="liberer">
+        LIBÉREZ-VOUS DE VOS <span>ADDICTIONS !!!</span>
+      </h1>
+
+      <section id="sugar-free">
+        <div class="ni">
+            <h3>SEVRAGE DU SUCRE | STOP SUCRE</h3>
+            <hr>
+            <h4>Abandonner le sucre sans rechute est une réalité avec la méthode LaserAddict®</h4>
+            <p>Notre technique associe un traitement au <b>laser doux</b> à un <b>coaching personnalisé</b> pour des programmes de <b>suivi de 1 à 3 semaines. Nous aidons à supprimer les envies de sucre, l’irritabilité et la tentation de consommer des produits sucrés même sans faim.</b></p>
+            <button>Voir notre tarif sucre</button>
+        </div>
+
+        <div class="wi">
+            <img src="https://laseraddict.fr/wp-content/uploads/2023/06/aucun-message-sucre-bureau-768x768.webp" alt="">
+        </div>
+      </section>
+
+      <section id="seance">
+        
+        <div class="visuel">
+            <div class="overlay"></div>
+            <img src="https://laseraddict.fr/wp-content/uploads/2023/06/DSC_0202-1024x683.webp" alt="">
+        </div>
+
+        <div class="pg">
+            <h3>DÉROULEMENT D’UNE SÉANCE</h3>
+            <hr>
+            <h4>ENVIRON 1 H</h4>
+
+            <div class="det">
+                <span class="se">
+                    <h4>SEANCE COACHING 30 MN</h4>
+                    <p>Nous travaillons avec vous pour comprendre votre profil de consommateur de sucre, votre niveau de dépendance et votre motivation. Nous élaborons des stratégies concrètes pour combattre les envies de sucre et vous conseillons sur vos habitudes alimentaires et les nouveaux comportements à adopter</p>    
+                </span>
+                <span class="se">
+                    <h4>SEANCE LASER 30 MN</h4>
+                    <p>Avec notre technologie laser de pointe, nous stimulons des points d’énergie spécifiques pour éliminer instantanément les connexions liées à votre dépendance et supprimer le besoin physique de consommer du sucre. Vous n’éprouverez plus le désir de consommer du sucre</p>    
+                </span>
+                <span class="se">
+                    <h4>SOUTIEN PERSONNALISÉ</h4>
+                    <p>Nous proposons un soutien personnalisé après votre sevrage. Cela nous permet de recueillir vos impressions, de vous conseiller sur vos habitudes alimentaires et de vous aider à adopter de nouveaux comportements</p>    
+                </span>
+
+                <button>Voir notre tarif sucre</button>
+                <button>PRENDRE RENDEZ-VOUS SOUS 5 JOURS</button>
+            </div>
+        </div>
+      </section>
+
+      <section id="traitement">
+        <div class="big-card">
+            <div class="po">
+                <h3>SYMPTÔMES ET TRAITEMENT POUR SE LIBÉRER DE L'ADDICTION AU SUCRE | STOP SUCRE</h3>
+                <hr>
+                <p>Découvrez les principaux symptômes de l’addiction au sucre et comment les éviter grâce à la méthode LaserAddict®. Les fringales de produits sucrés, l’irritabilité en cas de manque de sucre, le besoin compulsif de manger du sucre même sans faim, peuvent être maîtrisés grâce à un traitement au laser doux et un coaching personnalisé. En savoir plus pour se libérer de l’addiction au sucre.</p>
+                <p>Le sucre, souvent omniprésent dans notre alimentation, peut entraîner une dépendance physique et psychologique. L’arrêt de cette substance peut provoquer des symptômes de sevrage tels que les fringales de sucre, l’irritabilité, l’anxiété, les troubles du sommeil, la fatigue, la dépression, et les douleurs abdominales</p>
+                <ul>
+                    <span>Voici une liste des principaux symptômes du sevrage du sucre :</span>
+                    <li>Fringales de produits sucrés</li>
+                    <li>Irritabilité ou agitation</li>
+                    <li>Anxiété ou nervosité</li>
+                    <li>Troubles du sommei</li>
+                    <li>État fébrile (fatigue, faiblesse)</li>
+                    <li>Humeur dépressive</li>
+                    <li>Douleurs abdominales</li>
+                </ul>
+                <p>Il est important de noter que ces symptômes peuvent varier en intensité et en durée en fonction de la durée et de la fréquence de la consommation de sucre. Cependant, en suivant la méthode LaserAddict® qui utilise le traitement au laser doux et le coaching personnalisé, il est possible d’éviter ces symptômes et de réussir à se libérer de l’addiction au sucre.</p>
+            </div>
+
+            <div class="pt">
+                <p>La méthode LaserAddict® propose des séances de sevrage qui varient de 1 à 3 semaines en fonction du profil du consommateur. Pendant ces séances, les patients reçoivent également un coaching personnalisé pour les aider à identifier leurs habitudes de consommation et à mettre en place des actions concrètes pour les changer.</p>
+                <p>Après le traitement au laser, une période de soutien personnalisé est également proposée pour aider les patients à maintenir leur sevrage et à s’adapter à leur nouvelle vie sans sucre.</p>
+                <p>Si vous êtes dépendant au sucre et que vous souhaitez vous libérer de votre addiction sans subir les symptômes de sevrage désagréables, contactez notre équipe de professionnels pour découvrir comment la méthode LaserAddict® peut vous aider.</p>
+                <button>Voir notre tarif sucre</button>
+            </div>
+        </div>
+      </section>
+
+      <section id="retenir">
+        <div class="pg">
+            <img src="https://laseraddict.fr/wp-content/uploads/2023/06/sugar-150x150.png.webp" alt="">
+            <h3>À RETENIR :</h3>
+            <hr>
+
+            <div class="det">
+                    <p><b>Le sucre est une substance extrêmement addictive</b>, mais l’arrêt de sa consommation peut rapidement atténuer tous les symptômes qu’il peut provoquer. Cela nécessite une modification complète des habitudes alimentaires. Si votre consommation de sucre vous pose problème, l’arrêt est essentiel.</p>
+                    <p>Nous sommes là pour vous aider et vous proposons un <b>soutien personnalisé</b> après votre sevrage. Nous pouvons ainsi recueillir vos impressions et vous <b>conseiller sur vos nouvelles habitudes alimentaires et les nouveaux comportements à adopter</b>.</p>
+
+                <button>Voir notre tarif sucre</button>
+                <button>PRENDRE RENDEZ-VOUS SOUS 5 JOURS</button>
+            </div>
+        </div>
+        <div class="visuel">
+            <img src="https://laseraddict.fr/wp-content/uploads/2023/06/relaxed-woman-enjoying-the-sea-1024x683-1.jpg.webp" alt="">
+        </div>
+
+
+      </section>
+
+      <section id="cta">
+        <div class="overlay"></div>
+    <h2>Vous souhaitez prendre rendez-vous pour une séance ?</h2>
+    <button>PRENDRE RENDEZ-VOUS SOUS 5 JOURS</button>
+      </section>
+
+      <section id="nf">
+        <img src="https://laseraddict.fr/wp-content/uploads/2023/04/LOGO-NF-300x103.png.webp" alt="">
+        <h3>&nbsp;matériel nf & ce</h3>
+      </section>
+</body>
+</html>
